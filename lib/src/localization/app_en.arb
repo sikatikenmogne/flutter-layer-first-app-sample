@@ -1,0 +1,6 @@
+{
+  "appTitle": "flutter_skeleton_app_sample",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
