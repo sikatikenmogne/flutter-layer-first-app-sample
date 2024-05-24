@@ -28,3 +28,46 @@ the `lib/src/localization` directory.
 To support additional languages, please visit the tutorial on
 [Internationalizing Flutter
 apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+
+## Project file structure
+
+```txt
+/my_flutter_app
+    /android
+    /ios
+    /lib
+        /src
+            /models
+                - user.dart
+                - order.dart
+            /services
+                - user_service.dart
+                - order_service.dart
+            /controllers
+                - user_controller.dart
+                - order_controller.dart
+            /views
+                /user
+                    - user_list_view.dart
+                    - user_detail_view.dart
+                /order
+                    - order_list_view.dart
+                    - order_detail_view.dart
+            /widgets
+                - custom_button.dart
+                - custom_list_item.dart
+            /utils
+                - constants.dart
+                - helpers.dart
+            /config
+                - routes.dart
+                - theme.dart
+            main.dart
+    /test
+        /unit_tests
+            - user_test.dart
+            - order_test.dart
+    /web
+    pubspec.yaml
+    README.md
+```
